@@ -128,61 +128,65 @@ a:visited{
 
 /* Responsive small devices */
 
-@media (max-width: 576px){
+@media (max-width: 320px){
     .background{
-        background: url(./images/bg-mobile.svg) no-repeat fixed, var(--main-primary-color-violet); 
+        height: 100%;
+        background: url(./images/bg-mobile.svg); 
+        background-color: var(--main-primary-color-violet);
         background-size: 100% 100%;
+        background-repeat: no-repeat;
     }
     .logo{
         position: relative;
-        width: 230px;
+        width: 200px;
         height: 70px;
         left: -50px;
     }
     .mockups{
         position: absolute;
-        width: 400px;
-        height: 380px;
+        width: 80%;
         background: url(./images/illustration-mockups.svg);
         background-repeat: no-repeat;
-        background-size: 400px 350px;
-        margin-left: -20px;
+        background-size: 250px 200px;
+        padding-right: 100px;
+        left: 0;
     }   
     .title_text{
-        width: 400px;
+        width: 300px;
         position: absolute;
-        font-size: 30px;
+        font-size: 24px;
+        font-weight: 700;
         text-align: center;
-        left: 50px;
-        bottom: -10px;
+        left: 20px;
+        bottom: 50px;
     }
     .paragraph_text{
         position: absolute;
-        width: 380px;
-        font-size: 20px;
-        margin-left: 42px;
-        left: 5px;
-        bottom: -200px;
+        width: 300px;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        left: 10px;
+        bottom: -100px;
     }
     .button{
         position: absolute;
         width: 200px;
         height: 45px;
-        left: 120px;
-        bottom: -270px;
+        left: 60px;
+        bottom: -170px;
         color: var(--main-primary-color-violet);
-        box-shadow: 1px 1px 8px black;
+        box-shadow: 1px 1px 10px black;
     }
     .logos_redes{
-        bottom: -530px;
-        left: -130px;
+        bottom: -400px;
+        left: -25px;
         padding-top: 300px;
     }    
     .attribution{
         position: absolute;
-        width: 420px;
+        width: 250px;
         text-align: center;
-        left: 34px;
         bottom: -450px;
     }
 }
