@@ -128,7 +128,7 @@ a:visited{
 
 /* Responsive small devices */
 
-@media (max-width: 320px){
+@media (max-width: 500px){
     .background{
         height: 100%;
         background: url(./images/bg-mobile.svg); 
@@ -166,7 +166,7 @@ a:visited{
         font-weight: 500;
         font-size: 16px;
         text-align: center;
-        left: 10px;
+        left: 25px;
         bottom: -100px;
     }
     .button{
@@ -174,13 +174,13 @@ a:visited{
         width: 200px;
         height: 45px;
         left: 60px;
-        bottom: -170px;
+        bottom: -270px;
         color: var(--main-primary-color-violet);
         box-shadow: 1px 1px 10px black;
     }
     .logos_redes{
         bottom: -400px;
-        left: -25px;
+        left: -150px;
         padding-top: 300px;
     }    
     .attribution{
